@@ -1,9 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>TnTSoftware.AspNetCore.CorrelationId</AssemblyName>
     <RootNamespace>TnTSoftware.AspNetCore.CorrelationId</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Thomas Anderson</Authors>
+    <Company>TnT Software Ltd</Company>
+    <AssemblyVersion>0.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+    <RepositoryUrl>https://github.com/t11omas/TnTSoftware.AspNetCore.CorrelationId</RepositoryUrl>
+    <Description>Simple library to help with correlation id</Description>
+    <Version>0.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>

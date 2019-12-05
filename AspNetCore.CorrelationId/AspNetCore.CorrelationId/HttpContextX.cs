@@ -22,7 +22,7 @@ namespace TnTSoftware.AspNetCore.CorrelationId
             if (header.Count > 0)
             {
                 value = header[0];
-                return true;
+                return !string.IsNullOrEmpty(value);
             }
 
             value = string.Empty;
